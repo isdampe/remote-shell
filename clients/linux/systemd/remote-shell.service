@@ -12,7 +12,8 @@ Environment=HOME=/home/remoteshell
 Environment=SHELL=/bin/bash
 Environment=SHLVL=1
 WorkingDirectory=/usr/local/bin
-StandardOutput=console
+StandardOutput=null
+StandardError=null
 
 [Install]
 WantedBy=multi-user.target
